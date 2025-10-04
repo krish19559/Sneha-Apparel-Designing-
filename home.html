@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sneha Apparel Designing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header">
+        <span class="logo-text">Sneha Apparel</span>
+        <div id="navbar">
+            <a href="#">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Sign In</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div id="main-content">
+        <div id="hero-text">
+            <h1>EXPLORE 3D FASHION DESIGN</h1>
+            <p>
+                Simple, vibrant designs for Men and Women. Choose a style, personalize, and visualize!
+            </p>
+            <button id="designBtn">Start Designing</button>
+        </div>
+        <div id="hero-image">
+            <img src="https://img.freepik.com/free-photo/brunette-girl-red-beret-laughs-sitting-chair-with-folder-her-hands-lady-with-red-lipstick-posing-pink-background-with-stand-with-shiny-dresses_197531-17618.jpg" alt="Fashion Preview">
+        </div>
+    </div>
+
+    <!-- Categories Section -->
+    <div id="categories">
+        <h2>Select Category</h2>
+        <div class="tabs">
+            <button id="menTab" class="tab active">Men</button>
+            <button id="womenTab" class="tab">Women</button>
+        </div>
+        <div id="menCats" class="cat-content">
+            <div class="cat-card">Casual Wear</div>
+            <div class="cat-card">Wedding Wear</div>
+            <div class="cat-card">Ethnic Wear</div>
+            <div class="cat-card">Formal Wear</div>
+        </div>
+        <div id="womenCats" class="cat-content" style="display:none;">
+            <div class="cat-card">Casual Wear</div>
+            <div class="cat-card">Wedding Wear</div>
+            <div class="cat-card">Party Wear</div>
+            <div class="cat-card">Traditional Wear</div>
+        </div>
+    </div>
+
+    <!-- Customer Feedback Section -->
+<div id="feedback-section">
+  <h2>Customer Feedback</h2>
+  <div id="feedback-list">
+    <div class="feedback-entry">
+      <strong>Divya:</strong>
+      <span>Great variety and style options, loved the easy navigation!</span>
+    </div>
+    <div class="feedback-entry">
+      <strong>Arjun:</strong>
+      <span>The Wedding Wear collection is amazing. Highly recommend!</span>
+    </div>
+  </div>
+  <h3>Leave Your Feedback</h3>
+  <form id="feedbackForm">
+    <input type="text" id="fbName" placeholder="Your Name"><br>
+    <input type="email" id="fbEmail" placeholder="Your Email"><br>
+    <textarea id="fbMsg" placeholder="Your Feedback"></textarea><br>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
